@@ -8,10 +8,7 @@ function Footer() {
         <div className='row p-5'>
           <div className='col'>
             <h4>Media Player 2024</h4>
-            <p style={{ textAlign: 'justify' }}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to dem
-              onstrate the visual form of a document or a typeface without rel
-              ying on meaningful content. Lorem ipsum may be used as a placeholder befor
-              e the final copy is available.</p>
+            <p style={{ textAlign: 'justify' }}>MediaPlayer App is a modern, user-friendly media player built with React, offering a seamless experience for playing video files. It features playlist management, standard media controls, volume control, and a progress bar for smooth playback.</p>
           </div>
           <div className='col'>
             <h4>Links</h4>

@@ -30,6 +30,7 @@ function Addvideos({setAddStatus}) {
             setVideo({...video,image:value})
         }
     }
+    
     const handleUpload=async()=>{
         const{caption,url,image}=video
 

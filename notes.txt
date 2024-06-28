@@ -34,4 +34,21 @@
     bootstrap.com[bootstrap.min.css]->bootswatch.co
 ->pages & components
 ->routing of pages and components  
-          react-router-dom     
+          react-router-dom   
+
+
+
+
+
+
+
+
+
+
+Student management app
+
+-teacher -login
+-student list 
+-edit,delete 
+-new student add 
+-id,name,DOB,class,address,email

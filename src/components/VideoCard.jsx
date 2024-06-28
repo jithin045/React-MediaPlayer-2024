@@ -41,7 +41,7 @@ function VideoCard({ video, setDelStatus, cat }) {
 
     return (
         <>
-            <Card style={cat ? { width: '12rem' } : { width: '18rem' }} className='ms-4 mb-2 ' draggable onDragStart={(e) => handleOnDrag(e, video?.id)}>
+            <Card style={cat ? { width: '13rem' } : { width: '20rem' }} className='ms-4 mb-4 ' draggable onDragStart={(e) => handleOnDrag(e, video?.id)}>
                 <Card.Img className='mt-2' style={cat ? { height:"100px" } : { height:"150px" }} variant="top" src={video.image} onClick={handleShow} />
                 <Card.Body className='d-flex flex-row justify-content-between'>
                     <Card.Title style={cat ? { fontSize:"15px" } : { fontSize:"25px" }}>{video.caption}</Card.Title>
